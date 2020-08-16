@@ -1,0 +1,128 @@
+
+/*
+font-family: 'ZCOOL XiaoWei', serif;
+font-family: 'Acme', sans-serif;
+font-family: 'Prata', serif
+*/
+body{
+background-color: #f1f1f1;
+font-family: 'ZCOOL XiaoWei', serif;
+color: #6c757d;
+
+}
+
+
+
+
+/*footer*/
+
+
+
+/*index css */
+body{
+  margin-top: 93px;
+}
+/*-NAVBAR SECTION-*/
+.navbar{
+  box-shadow: 2px 2px 5px #3292a6;
+  background:#fff;
+  opacity:0.8;
+}
+.navbar .nav-item{
+  font-size: 1.4rem;
+  padding-right:20px;
+}
+.navbar .nav-item:last-child{
+  padding-right: 0;
+}
+.navbar .nav-item .nav-link{
+  color:#252525;
+}
+.navbar .nav-item .nav-link:hover{
+  color:#3292a6;
+}
+.navbar .nav-item .nav-link:hover i{
+  color:#3292a6;
+}
+.ht{
+  height: 800px;
+}
+
+
+/*----Admin-------*/
+
+.body{
+  padding: 60px;
+}
+/*-list-*/
+.list-group-item a,i{
+  font-size: 1.4rem;
+  padding-right:20px;
+  text-decoration: none;
+
+}
+.list-group-item{
+  padding-right: 0;
+}
+.list-group-item a,i{
+  color:#7a868c;
+}
+.list-group-item:hover a{
+  color:#3292a6;
+
+}
+.list-group-item:hover i{
+  color:#3292a6;
+
+}
+.badge{
+  margin-right: 10px;
+}
+
+/* Dashboard */
+
+.huge{
+  font-size: 60px;
+  text-align: right;
+  color:#7a868c;
+}
+.dp{
+    font-size: 15px;
+  text-align: right;
+  color:#7a868c;
+}
+
+/*table*/
+
+/*Categories*/
+.breadcrumb-item a {
+  font-size: 1.4rem;
+  padding-right:20px;
+  text-decoration: none;
+  color:#3292a6;
+}
+.breadcrumb-item{
+  color:#3292a6;
+}
+
+
+
+/*--admin end--*/
+
+/*-FOOTER-*/
+#footer-main{
+  background:#3292A6;
+}
+#footer-main .form-group input{
+  border-radius:0;
+}
+.cf{
+  text-decoration: none;
+  color: #fff;
+}
+/*-Media Quries-*/
+@media(max-width:768px){
+  #showcase h1{
+    font-size: 4rem;
+  }
+}

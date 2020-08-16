@@ -1,0 +1,8 @@
+Admin login:
+username: admin
+password: admin1234
+
+
+Psychology login:
+username: pella
+password: shakil12

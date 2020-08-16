@@ -1,0 +1,201 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/x-icon" href="../img/t.png">
+  <link href="https://fonts.googleapis.com/css?family=Acme|Prata|ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/theme-default.min.css"
+    rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="../css/animated.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/navbar-fixed.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>1me!</title>
+</head>
+<body>
+
+ <!-- NAVBAR SECTION-->
+<nav class="navbar navbar-expand-lg navbar-light py-3 fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="../blog.php">
+      <img src="../img/t.png" alt="M" class="img-fluid" width="50" height="50">
+      <h3 class="d-inline align-middle">1me!</h3>
+    </a>
+  </div>
+</nav>
+
+<!--signup-->
+
+<div class="container ">
+      <form class="main-form " method="post" enctype="multipart/form-data" action="psychology.php">
+        <div class="">
+          <h2 class="text-center py-5 text-info">Sign Up Psychologist</h2>
+        </div>
+        <hr class="bg-info">
+        <div class="form-row">
+       <div class="form-group col-md-6">
+         <div class="input-group input-group-lg">
+           <div class="input-group-prepend">
+             <span class="input-group-text">
+               <i class="fa fa-pencil-alt"></i>
+             </span>
+           </div>
+           <input class="form-control from-control-lg" type="text" placeholder="First Name" data-validation="required" name="fname">
+         </div>
+       </div>
+       <div class="form-group col-md-6">
+         <div class="input-group input-group-lg">
+           <div class="input-group-prepend">
+             <span class="input-group-text">
+               <i class="fa fa-pencil-alt"></i>
+             </span>
+           </div>
+           <input class="form-control from-control-lg"type="text" placeholder="Last Name" data-validation="required" name="lname">
+         </div>
+       </div>
+     </div>
+     <div class="form-group">
+     <div class="input-group input-group-lg">
+       <div class="input-group-prepend">
+         <span class="input-group-text">
+           <i class="fa fa-user"></i>
+         </span>
+       </div>
+       <input class="form-control from-control-lg"type="text" placeholder="Username" data-validation="length" data-validation-length="3-20"
+		 data-validation-error-msg="Must Be Alphanumeric & Between 3-12 chars." name="uid">
+     </div>
+     </div>
+        <div class="form-group">
+          <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+            <span class="input-group-text">
+              <i class="fa fa-envelope"></i>
+            </span>
+          </div>
+          <input class="form-control from-control-lg"type="email" placeholder="Email" data-validation="required email" name="email">
+          </div>
+          </div>
+          <div class="form-group">
+          <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="fa fa-lock"></i>
+              </span>
+            </div>
+            <input class="form-control from-control-lg"type="password" placeholder="Password" data-validation="length" data-validation-length="8-50"
+     		 data-validation-error-msg="Password Must Be 8 Length." name="pwd">
+          </div>
+          </div>
+          <div class="form-group">
+          <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="fa fa-mobile-phone"></i>
+              </span>
+            </div>
+            <input class="form-control from-control-lg"type="text" placeholder="Phone Number" data-validation="number" name="phone">
+          </div>
+          </div>
+          <div class="form-group">
+          <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="fa fa-id-card"></i>
+              </span>
+            </div>
+            <input class="form-control from-control-lg"type="text" placeholder="ID Number" data-validation="number"
+            data-validation-error-msg="Must Be Your Psychologist License Number." name="id_nmb">
+          </div>
+          </div>
+          <div class="form-group">
+          <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="fa fa-upload"></i>
+              </span>
+            </div>
+            <input class="form-control from-control-lg"type="file" placeholder="Image" data-validation="required"
+            data-validation-error-msg="Must Be Your Profile Picture & size 300kb." name="file">
+          </div>
+          </div>
+          <div class="form-group">
+          <div class="input-group input-group-lg">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <i class="fas fa-pencil-alt"></i>
+              </span>
+            </div>
+            <textarea  class="form-control form-control-lg"name="about" rows="5" placeholder="About" data-validation="length" data-validation-length="50-300"></textarea>
+          </div>
+          </div>
+
+          <div class="form-group">
+        <input type="submit" class="btn btn-outline-info btn-lg btn-block" value="Sign Up" name="psychologist">
+      </div>
+      </form>
+</div>
+
+
+<!-- FOOTER-->
+
+    <footer class="bg-info py-3">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md4 p-5 ftr">
+              <h3>Get Started</h3>
+              <hr>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-light">Mental Health News & Advice</a></li>
+                <li><a href="#" class="text-light">Volunteer as a Listener</a></li>
+                <li><a href="#" class="text-light">Give 1me! a Try</a></li>
+                <li><a href="#" class="text-light">Our Support Community</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 p-5  ftr">
+              <h3>Follow Us</h3>
+              <hr>
+              <p>Please Follow us on our Social Media Profile Link:</p>
+              <a href="#"><i class="fab fa-facebook-f m-2 iii"></i></a>
+              <a href="#"><i class="fab fa-twitter m-2 iii"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in m-2 iii"></i></a>
+              <a href="#"><i class="fab fa-youtube m-2 iii"></i></a>
+            </div>
+            <div class="col-md-4 p-5 ftr">
+              <h3>Our Newletter</h3>
+              <hr>
+              <p>Number of People Helped 1me! Always</p>
+              <form class="" action="index.html" method="post">
+                <input class="form-control m-2" type="email" placeholder="Enter Email"
+                data-validation="email" name="email">
+                <input class="form-control m-2 btn btn-outline-light" type="submit" value="Subscribe" name="Submit">
+              </form>
+            </div>
+          </div>
+          <hr class="bg-light">
+          <div class="">
+                <p class="lead text-center my-5">Copyright &copy; <?php echo date('Y'); ?> 1me!.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+<!--THE END-->
+
+  <script src="https://kit.fontawesome.com/2146e9efd0.js"></script>
+  <script src="..//js/jquery-3.4.1.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/navbar-fixed.js"></script>
+
+<!--Form Validation -->
+<script>
+  $.validate();
+</script>
+
+</body>
+</html>

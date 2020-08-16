@@ -1,0 +1,424 @@
+
+/*
+font-family: 'ZCOOL XiaoWei', serif;
+font-family: 'Acme', sans-serif;
+font-family: 'Prata', serif
+*/
+body{
+background-color: #f1f1f1;
+font-family: 'ZCOOL XiaoWei', serif;
+
+}
+.justify-content-between{
+  border:
+}
+.inbox{
+  margin-top: 180px;
+}
+/*head*/
+.jumbotron{
+  background-color: #99ccff;
+  height: 250px;
+  overflow: hidden;
+
+}
+.jumbotron #details{
+  color: white;
+}
+.jumbotron #details span{
+  color: #24A7CF;
+}
+/*slide bar */
+section .plr{
+  margin-bottom: 20px;
+}
+.popular .details p{
+  font-family: 'Prata', serif;
+  font-size: 11px;
+}
+.popular{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #E3E3E3;
+}
+.popular img{
+  width: 100%;
+  margin-top: 10px;
+}
+.popular ul li {
+  list-style: none;
+
+}
+
+.popular a{
+    color: #17a2b8;
+      font-family: 'Acme', sans-serif;
+      text-decoration: none;
+  }
+  .popular .si{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+
+  }
+
+
+
+/*    post                */
+.post{
+  background: white;
+    border: 1px solid #E3E3E3;
+    margin: 20px 0px;
+
+}
+.post .post-date{
+  padding: 10px;
+  text-align: center;
+}
+.post .post-date .day{
+  font-size: 50px;
+  color:#17a2b8;
+}
+.post .post-date .month{
+  font-size: 18px;
+}
+.post .post-date .year{
+  font-size: 18px;
+  font-weight: 100;
+}
+ .post-title{
+    padding: 10px 20px;
+    border-left:1px solid #E3E3E3;
+}
+.post .title {
+    color: #17a2b8;
+      font-family: 'Acme', sans-serif;
+      text-decoration: none;
+
+  }
+.post .post-title span{
+  color:#17a2b8;
+  font-weight: 100;
+  margin-left: 10px;
+}
+.post .post-profile{
+  padding: 20px;
+}
+.post .rounded-circle{
+  width: 80%;
+}
+.post > a > img{
+  width: 100%;
+
+}
+.post .desc{
+  font-weight: 100;
+  padding: 10px;
+  line-height: 20px;
+  text-align: justify;
+}
+.post >a.btn{
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.post .bottom{
+  padding: 10px 20px;
+  border-top: 1px solid #E3E3E3;
+}
+.post .bottom{
+  color: #C6C6C6;
+}
+.post .bottom .ff{
+  margin-right: 20px;
+
+}
+.post .bottom .ss{
+  margin-left: 20px;
+
+}
+.post .ccc{
+  color:#17a2b8;
+  text-decoration: none;
+}
+/*pagination */
+.pagination >li>a{
+color:#17a2b8;
+padding: 15px 25px;
+font-size:20px;
+
+}
+
+/*post page */
+
+.related-posts{
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+.related-posts img{
+  width: 100%
+}
+.related-posts a{
+color:#17a2b8;
+text-decoration: none;
+}
+
+/*author*/
+.author{
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.author img{
+  width: 100%;
+}
+.author h2{
+  color:#17a2b8;
+  text-decoration: underline;
+}
+
+/*comment*/
+.comment{
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.comment h2 ,h4{
+  color:#17a2b8;
+}
+.comment img{
+  width: 100%
+
+}
+.comment .single-comment{
+  margin-bottom: 10px;
+}
+
+.comment-box{
+  margin-bottom: 15px;
+  padding: 20px;
+  background: #fff;
+}
+
+/*footer*/
+
+/* Psychology */
+
+
+
+
+
+
+
+
+
+
+
+
+/*index css */
+body{
+  margin-top: 93px;
+  color:#4B6164;
+
+}
+/*-NAVBAR SECTION-*/
+.navbar{
+  box-shadow: 2px 2px 5px #3292a6;
+  background:#fff;
+  opacity:0.9;
+}
+.navbar .nav-item{
+  font-size: 1.4rem;
+  padding-right:20px;
+}
+.navbar .nav-item:last-child{
+  padding-right: 0;
+}
+.navbar .nav-item .nav-link{
+  color:#4B6164;
+}
+.navbar .nav-item .nav-link:hover{
+  color:#3292a6;
+}
+/*-Showcase SECTION-*/
+#showcase{
+  background: url('../img/mountains.jpg');
+  min-height:600px;
+  position:relative;
+}
+#showcase .primary-overlay{
+  background:rgba(50,146,156,0.7);
+  min-height:600px;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%
+}
+#showcase .primary-overlay a{
+  border-radius: 0;
+}
+/*-Showcase SECTION-*/
+#subscribe .btn{
+  background:rgba(50,146,156,0.7);
+}
+/*-BOXES SECTION-*/
+#boxes .card{
+  border:1px solid #3292A6;
+  border-radius: 0;
+}
+#boxes .card-bg-light h3{
+  color:#3292A6;
+}
+#boxes .card-bg{
+  background:#3292A6
+}
+/*-About/Why-*/
+#about .info-book h2{
+  color:#3292A6;
+}
+/*-Authors-*/
+#authors img {
+  margin-top:-50px;
+}
+/*
+#authors .card:hover{
+  background:
+  color: #3292A6;
+}*/
+.vp :hover {
+  color:#fff;
+}
+.pi{
+  color:#4B6164;
+  font-size: 90px;
+}
+.psych_info{
+  color:#3292A6;
+  text-decoration: none;
+}
+.psych_info a:hover .psych_info{
+  text-decoration: none;
+}
+#authors .fab{
+  font-size:25px;
+}
+#authors .info-authors{
+  color:#3292A6;
+}
+
+
+/*-Contact-*/
+
+#contact .info-contact h2{
+  color:#3292A6;
+}
+#contact form .btn{
+background:#3292A6;
+}
+/* Forgot Password */
+
+.f-top{
+  margin-top: 60px;
+  color: #4B6164;
+}
+
+
+/*-FOOTER-*/
+.footer-top{
+  color: #fff;
+}
+.footer-top a{
+  text-decoration: none;
+  color: #fff;
+}
+.iii{
+  font-size: 20px;
+  padding: 6px;
+}
+/*-Media Quries-*/
+@media(max-width:768px){
+  #showcase h1{
+    font-size: 4rem;
+  }
+  #details{
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+  .post .post-date .day{
+    font-size: 30px;
+    color:#17a2b8;
+  }
+  .post .post-date .month{
+    font-size: 12px;
+  }
+  .post .post-date .year{
+    font-size: 12px;
+    font-weight: 100;
+  }
+  .post-title h2{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .post .rounded-circle{
+    width: 30%;
+  }
+  .post-profile{
+    text-align: center;
+    margin-top: -30px;
+  }
+  .author img{
+    width: 50%;
+
+  }
+  .author{
+    text-align: center;
+  }
+  .pagination >li>a{
+  padding: 10px 20px;
+  font-size:15px;
+  }
+  .comment img{
+    width: 40%
+  }
+  .comment{
+    text-align: center;
+  }
+
+  .pi{
+    color:#4B6164;
+    font-size: 60px;
+  }
+
+.info-authors h2{
+  font-size: 30px;
+}
+
+.vp{
+  font-weight: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
